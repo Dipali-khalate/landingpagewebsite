@@ -1,0 +1,24 @@
+.services{
+    position: relative;
+}
+.services .services-bg{
+/* position: absolute; */
+width: 100%;
+z-index: -1;
+}
+.services .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.services .cards > div{
+    text-align: center;
+    padding: 20px 40px;
+}

@@ -1,0 +1,22 @@
+.footer{
+    width: 100%;
+    background: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+}
+.footer > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer > div h3{
+    font-size: 30px;
+    color: #fff;
+}
+
+.footer .getintouch span{
+    margin: 20px 0;
+
+}

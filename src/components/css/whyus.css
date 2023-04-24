@@ -1,0 +1,48 @@
+.whyus{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 0 120px;
+}
+.whyus .whyus-bg{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.whyus .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #666;
+}
+.whyus .cards > div{
+    width: 40%;
+    margin: 80px 0;
+    z-index: 1;
+    padding: 0 60px;
+}
+.whyus .cards h3{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.whyus .cards h3 .icon{
+    background: #199adb;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.whyus .cards > div:nth-child(1){
+width: 80%;
+text-align: center;
+margin: 80px auto;
+}
+.whyus .cards > div:nth-child(1) h2{
+    font-size: 36px;
+}
